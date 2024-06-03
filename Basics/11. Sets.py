@@ -53,34 +53,3 @@ print(my_set.issuperset(your_set))
 # union => combines both the sets
 print(my_set.union(your_set))
 # print(my_set | your_set)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
