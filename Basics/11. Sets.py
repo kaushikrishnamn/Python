@@ -1,15 +1,15 @@
 # sets => unordered collection of unique objects
 
-my_set = {1,2,3,4,5,6,7,8,9,10,10}
+my_set = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10}
 print(my_set)
 
-#adding
+# adding
 
 my_set.add(11)
 my_set.add(10)
 print(my_set)
 
-my_list = [1,2,3,4,5,5]
+my_list = [1, 2, 3, 4, 5, 5]
 print(set(my_list))
 
 new_set = my_set.copy()
@@ -19,14 +19,14 @@ print(new_set)
 
 # Methods
 
-my_set = {1,2,3,4,5,}
-your_set = {4,5,6,7,8,9,10}
+my_set = {1, 2, 3, 4, 5, }
+your_set = {4, 5, 6, 7, 8, 9, 10}
 
 # difference => gives the difference in the first set as compared to the second set.
 # Removes the duplicates from the both sets and only returns the remaining elements from the first set
 print(my_set.difference(your_set))
 
-#discard => discards the element from the set
+# discard => discards the element from the set
 my_set.discard(5)
 print(my_set)
 my_set.add(5)
@@ -41,7 +41,7 @@ my_set.add(5)
 print(my_set.intersection(your_set))
 # print(my_set & your_set)
 
-#isdisjoint => if they have nothing in common we get True, else False
+# isdisjoint => if they have nothing in common we get True, else False
 print(my_set.isdisjoint(your_set))
 
 # issubset => Returns true if the first set is subset of second
