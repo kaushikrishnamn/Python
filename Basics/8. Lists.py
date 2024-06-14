@@ -1,6 +1,6 @@
 # lists
 
-li = [1,2,3,4,5]
+li = [1, 2, 3, 4, 5]
 li2 = ['a', 'b', 'c', 'd', 'e']
 li3 = [1, 2, 'a', 'b', True]
 amazon_cart = [
@@ -8,7 +8,7 @@ amazon_cart = [
     'sunglasses',
     'toys',
     'grapes'
-    ]
+]
 print(amazon_cart)
 
 # List Slicing
@@ -98,31 +98,14 @@ print(basket)
 basket = ['a', 'z', 'x', 'f', 'e']
 print(len(basket))
 print(basket[::-1])
-print(list(range(1,100)))
+print(list(range(1, 100)))
 sentence = ' '
 new_sentence = sentence.join(['hi', 'my', 'name', 'is', 'a', 'dog'])
 print(new_sentence)
 
 # unpacking
 
-a,b,c, *other, d = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(a,b,c)
+a, b, c, *other, d = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(a, b, c)
 print(other)
 print(d)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

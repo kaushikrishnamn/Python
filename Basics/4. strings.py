@@ -1,7 +1,7 @@
 print(type("Hi hello there"))
 
 username = 'supercoder'
-password = 'aupersecret'
+password = 'supersecret'
 long_string = '''
 WOW
 0 0
@@ -18,7 +18,7 @@ print(full_Name)
 # string concatenation
 print('hello' + " Kaushik!")
 
-#Type Conversion
+# Type Conversion
 print(type(str(100)))
 
 # Escape Sequence
@@ -33,8 +33,8 @@ print('\nFormatted String:')
 name = 'Kaushik'
 age = 29
 print('Hi ' + name + '. You are ' + str(age) + ' years old.')
-print('Hi {}. You are {} years old.'.format(name, age)) # Old Way
-print(f'Hi {name}. You are {age} years old.') # New Way
+print('Hi {}. You are {} years old.'.format(name, age))  # Old Way
+print(f'Hi {name}. You are {age} years old.')  # New Way
 
 # String indices
 print('\nString indices:')
@@ -62,6 +62,3 @@ print(quote.replace('be', 'me'))
 quote2 = quote.replace('be', 'me')
 print(quote)
 print(quote2)
-
-
-
